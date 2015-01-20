@@ -1,0 +1,9 @@
+.source, .target {
+    margin: 10px auto;
+}
+
+.container {
+    width: 80%;
+    text-align: center;
+    margin: 5px auto;
+}
