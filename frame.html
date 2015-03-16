@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <title>Framed page</title>
+    <script>
+        window.onload = function (argument) {
+            window.top.navigator.onMessage('hello');
+            alert(window.top.document.body.innerHTML);
+        }
+    </script>
+</head>
+
+<body>
+    <p>This is a framed page.</p>
+</body>
+
+</html>
